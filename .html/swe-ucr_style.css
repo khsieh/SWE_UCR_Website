@@ -1,0 +1,115 @@
+/* CSS Document */
+
+h1, h2, h3, h5, h6 {FONT-FAMILY: Verdana,Helvetica;	color: #0B0C1D;}
+
+h4 {FONT-FAMILY: Verdana,Helvetica; color: #2C3A39;}
+
+FONT	{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+TD		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; color: #324342}
+BODY	{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px; background-color: #697B48; color: #324342}
+P		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV		{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+
+FORM 		 {FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+A:link       {color: #FFFFCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+A:visited    {color: #FFFFCC;	text-decoration: underline; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+A:hover      {color: #CC6699; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.title 		 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.content 	 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.officers	 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.block-title {BACKGROUND: none; COLOR: #F4F946; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.storytitle  {BACKGROUND: none; COLOR: #F4F946; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storycat	 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.boxtitle 	 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.boxcontent  {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica; font-weight: bold}
+.option 	 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.tiny		 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.small		 {BACKGROUND: none; COLOR: #FFFFCC; FONT-SIZE: 9px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+
+INPUT 		{FONT-SIZE: 11px; FONT-FAMILY: Verdana,Helvetica; color: #FFFFCC; background-color : #697B48; border: #FFFFCC; border-style: solid; border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px}
+input.button {border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px}
+TEXTAREA	{FONT-SIZE: 11px; FONT-FAMILY: Verdana,Helvetica; color: #FFFFCC; background-color : #697B48; border: #FFFFCC; border-style: solid; border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px}
+select {font-size: 11px; background-color : #000000; color : #FFFFCC; font-family: Verdana, Geneva, Arial, Helvetica; border: #FFFFCC; border-style: solid; border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px}
+
+
+/*
+  Addition for ClubWorks
+  Michael Rivera
+  10/18/05
+-----------------*/
+BODY {
+  background: #697B48;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 7px;
+  border: 2px solid #9DB079;
+  padding: 1px;
+  background: #697B48;
+}
+
+h2 span {
+  background: #7E9058;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Verdana, Helvetica;
+  color: #F4F946;
+  padding: 1.5em;
+  display: block;
+}
+
+.clubEvent {
+  border: 2px solid #9DB079;
+  background: #697B48;
+  
+  padding: 1px;
+
+  color: #FFFFCC;
+  margin: 7px;
+}
+
+* html .clubEvent {
+  height: 1%;
+}
+
+.clubEvent .title {
+  font-size: 12px;
+  font-family: Verdana, Helvetica;
+  color: #F4F946;
+  padding: 2px;
+  background: url(http://www.engr.ucr.edu/~mrivera/event_title_bg.jpg) top left repeat-x;
+}
+
+.clubEvent .date {
+  padding: 2px;
+  float: left;
+}
+
+.clubEvent .time {
+  padding: 2px;
+  float: left;
+  margin-left: 1em;
+}
+
+.clubEvent .place {
+  padding: 0 2px;
+  clear: both;
+}
+
+.clubEvent .summary {
+  padding: 0 2px;
+  clear: both;
+}
+
+.eventForm {
+  padding: 1em;
+}
+
+
+.eventForm,
+.eventListing td {
+  color: #FFFFFF;
+}

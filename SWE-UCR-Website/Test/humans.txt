@@ -1,0 +1,20 @@
+SITE
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal
+
+RESOURCES
+Foundation 5
+	http://foundation.zurb.com/develop/download.html
+	foundation.min.js
+
+JQuery Version Support
+	https://jquery.com/browser-support/
+	Currently using jquery-2.1.4.min.js
+	IE		9+
+	Chrome 	Current-1, Current
+	Firefox	Cur-1, Cur
+	Safari	5.1+
+	Opera	12.1x, Cur-1, Cur
+	iOS		6.1+
+	Android	2.3,4.0+
+

@@ -1,0 +1,47 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px; FONT: 11px verdana, arial, helvetica, sans-serif; COLOR: #333; PADDING-TOP: 0px; BACKGROUND-COLOR: white
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 900; FONT-SIZE: 28px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; COLOR: #ccc; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; FONT: bold 12px/14px verdana, arial, helvetica, sans-serif; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 16px; FONT: 11px/20px verdana, arial, helvetica, sans-serif; PADDING-TOP: 0px
+}
+UNKNOWN {
+	MARGIN: 0px
+}
+UNKNOWN {
+	TEXT-INDENT: 30px
+}
+A {
+	FONT-WEIGHT: 600; FONT-SIZE: 11px; COLOR: #09c; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #09c
+}
+A:visited {
+	COLOR: #07a
+}
+A:hover {
+	BACKGROUND-COLOR: #eee
+}
+.content {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: black 1px solid; PADDING-LEFT: 10px; Z-INDEX: 3; PADDING-BOTTOM: 10px; MARGIN: 0px 210px 20px 170px; BORDER-LEFT: black 1px solid; WIDTH: auto; PADDING-TOP: 10px; BORDER-BOTTOM: black 1px solid; POSITION: relative; BACKGROUND-COLOR: white; min-width: 120px
+}
+#navAlpha {
+	BORDER-RIGHT: black 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: black 1px dashed; PADDING-LEFT: 10px; Z-INDEX: 2; LEFT: 20px; PADDING-BOTTOM: 10px; BORDER-LEFT: black 1px dashed; WIDTH: 128px; PADDING-TOP: 10px; BORDER-BOTTOM: black 1px dashed; POSITION: absolute; TOP: 20px; BACKGROUND-COLOR: #eee; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 128px
+}
+#navBeta {
+	BORDER-RIGHT: black 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: 
+black 1px dashed; PADDING-LEFT: 10px; Z-INDEX: 1; RIGHT: 10px; 
+PADDING-BOTTOM: 10px; BORDER-LEFT: black 1px dashed; WIDTH: 168px; PADDING-TOP: 10px; BORDER-BOTTOM: black 1px dashed; POSITION: absolute; TOP: 20px; BACKGROUND-COLOR: #eee; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 168px
+}
