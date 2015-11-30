@@ -7,8 +7,8 @@
     version : '5.5.2',
 
     settings : {
-      open_method : 'overlap',
-      close_on_click : true
+      open_method : 'move',
+      close_on_click : false
     },
 
     init : function (scope, method, options) {

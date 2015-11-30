@@ -2762,6 +2762,25 @@ meta.foundation-mq-topbar {
         color: #0078a0; }
   .panel.radius {
     border-radius: 3px; }
+  .panel.advisor{
+    margin-left: 1.5%;
+    /*width: 50%;*/
+  }
+  .panel.reps{
+    margin-right: 1.5%;
+    /*width: 50%;*/
+  }
+  .panel.orbit{
+    width: 65%;
+    margin: 0 auto;
+    background-color: #B4FEB9;
+  }
+  
+  .orbit-img{
+    display: block;
+    height: 275px;
+    margin: 0 auto;
+  }
 
 .dropdown.button, button.dropdown {
   position: relative;
@@ -2810,7 +2829,7 @@ meta.foundation-mq-topbar {
 
 /* Image Thumbnails */
 .th {
-  border: solid 4px #FFFFFF;
+  border: solid 4px #ccfff2;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   display: inline-block;
   line-height: 0;
@@ -2820,6 +2839,16 @@ meta.foundation-mq-topbar {
     box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
   .th.radius {
     border-radius: 3px; }
+  .th.social-media {
+    width: 50px;
+    height: 50px;
+    background-color: #ccfff2;
+  }
+
+.fb-like-button{
+  width: 100px;
+  height: 40px;
+}
 
 /* Pricing Tables */
 .pricing-table {
@@ -2925,7 +2954,8 @@ meta.foundation-mq-topbar {
   background: none;
   overflow: hidden;
   position: relative;
-  width: 100%; }
+  height:288px;
+  width: auto; }
   .orbit-container .orbit-slides-container {
     list-style: none;
     margin: 0;
@@ -2957,7 +2987,7 @@ meta.foundation-mq-topbar {
   .orbit-container .orbit-slide-number {
     left: 10px;
     background: transparent;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 12px;
     position: absolute;
     top: 10px;
@@ -2981,7 +3011,7 @@ meta.foundation-mq-topbar {
       right: 20px;
       top: 5px; }
     .orbit-container .orbit-timer > span {
-      border: solid 4px #FFFFFF;
+      border: solid 4px #339966;
       border-bottom: none;
       border-top: none;
       display: none;
@@ -2997,7 +3027,7 @@ meta.foundation-mq-topbar {
       border: inset 8px;
       border-left-style: solid;
       border-color: transparent;
-      border-left-color: #FFFFFF;
+      border-left-color: #000000;
       right: -4px; }
       .orbit-container .orbit-timer.paused > span.dark {
         border-left-color: #333333; }
@@ -3006,7 +3036,7 @@ meta.foundation-mq-topbar {
   .orbit-container .orbit-prev,
   .orbit-container .orbit-next {
     background-color: transparent;
-    color: white;
+    color: #339966;
     height: 60px;
     line-height: 50px;
     margin-top: -25px;
@@ -3032,7 +3062,7 @@ meta.foundation-mq-topbar {
     .orbit-container .orbit-prev > span {
       border-right-style: solid;
       border-color: transparent;
-      border-right-color: #FFFFFF; }
+      border-right-color: #000000; }
     .orbit-container .orbit-prev:hover > span {
       border-right-color: #FFFFFF; }
   .orbit-container .orbit-next {
@@ -3040,7 +3070,7 @@ meta.foundation-mq-topbar {
     .orbit-container .orbit-next > span {
       border-color: transparent;
       border-left-style: solid;
-      border-left-color: #FFFFFF;
+      border-left-color: #000000;
       left: 50%;
       margin-left: -4px; }
     .orbit-container .orbit-next:hover > span {
